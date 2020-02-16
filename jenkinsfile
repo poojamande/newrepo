@@ -4,7 +4,7 @@ pipeline
     
        stages
          {
-          stages ('print hi')
+          stage ('print hi')
             {   
               steps { 
                       sh 'echo hi'
