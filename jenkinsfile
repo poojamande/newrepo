@@ -4,13 +4,12 @@ pipeline
       
         stages
          {
-          stages ('print hi');
+          stages ('print hi')
             {   
               steps { 
-                      sh 'echo hi';
+                      sh 'echo hi'
                      }
              }
-         
-          
+                
      }
  }
